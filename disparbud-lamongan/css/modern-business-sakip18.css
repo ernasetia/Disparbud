@@ -1,0 +1,169 @@
+
+body {
+  padding-top: 0px;
+  position: relative;
+}
+
+.navbar {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 11pt;
+	margin-top: 40px;
+	height: 80px;
+	position: absolute;
+	margin-right: 50px;
+	background-color: #1e73be;
+	margin-left: 400px;
+}
+
+.breadcrumb {
+	margin-top: -70px;
+	margin-left: 450px;
+	position: relative;
+	height: 70px;
+	background-color: orange;
+}
+.breadcrumb-item {
+	margin-left: 30px;
+	margin-top: 18px;
+}
+
+.section-popular-content {
+	background-color: #1e73be;
+	height: 100px;
+	margin-top: -115px;
+	position: absolute;
+	width: 500px;
+}
+
+.detail {
+	font-family: Arial;
+	font-weight: bold;
+	color: white;
+	padding-top: 40px;
+	max-width: 1300px;
+	padding-right: 150px;
+	margin-left: 40px;
+	align-items: center;
+  	justify-content: center;
+}
+
+.d-block {
+	margin-top: -28px;
+	margin-left: 10px;
+}
+
+
+
+li a {
+	display: inline-block;
+	color: white;
+
+}
+
+li a:after {
+	content: '';
+	display: block;
+	height: 3px;
+	width: 0;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+li a:hover:after {
+	width: 100%;
+    background: #FFA500;
+}
+
+
+
+h5 {
+	font-family: Swis721 Cn BT;
+}
+
+.Ico {
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.Ico2 {
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.Ico3 {
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.teks {
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #1e73be;
+}
+
+.coba {
+	position: absolute;
+	margin-right: 100px;
+	background-color: white;
+	margin-top: 40px;
+
+}
+
+.calendar_block {
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 850px;
+    border: none;
+}
+
+.calendar {
+    padding:20px;
+}
+
+.calendar .ui-widget-header {
+    border:none;
+    background:none;
+    color: grey;
+}
+.calendar .ui-widget {
+	color: grey;
+}
+
+.calendar .ui-datepicker {
+    border: none;
+    padding:10px 30px 10px;
+    color: grey;
+}
+
+.calendar .ui-widget-content {
+    background: none;
+    color: grey;
+}
+
+.calendar .ui-datepicker-calendar {
+   color: grey;
+}
+
+.calendar .ui-state-hover {
+   color: purple !important;
+}
+
+.calendar .ui-state-default {
+    text-align:center;
+    background: none;
+    color: grey;
+    width:40px;
+    padding:10px 0 10px 0;
+}
+
+.card-img {
+	margin-top: -450px;
+	margin-left: 20px;
+	color: grey;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.judul {
+	color: white;
+}
